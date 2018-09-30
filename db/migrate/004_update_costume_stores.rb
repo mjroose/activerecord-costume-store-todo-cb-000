@@ -1,4 +1,4 @@
-class UpdateCostumeStores < ActiveRecord::Migration[5.1]
+class FixCostumeStores < ActiveRecord::Migration[5.1]
   def change
     change_table :costume_stores do |t|
       t.rename :employees_count, :num_of_employees
