@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 4) do
+ActiveRecord::Schema.define(version: 5) do
 
   create_table "costume_stores", force: :cascade do |t|
     t.string "name"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 4) do
     t.boolean "family_friendly"
     t.string "opening_date"
     t.string "closing_date"
-    t.string "long_description"
+    t.string "description"
   end
 
 end
